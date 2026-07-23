@@ -1,1 +1,35 @@
-
+{
+    "name": "vendor/heimdall",
+    "description": "A resilient multi-LLM routing gateway with dynamic failovers and database telemetry for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Heimdall\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vendor\\Heimdall\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\Heimdall\\HeimdallServiceProvider"
+            ],
+            "aliases": {
+                "Heimdall": "Vendor\\Heimdall\\Facades\\Heimdall"
+            }
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0",
+        "illuminate/database": "^11.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0",
+        "orchestra/testbench": "^9.0"
+    }
+}
