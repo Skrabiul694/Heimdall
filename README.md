@@ -27,9 +27,9 @@ Designed using the **Manager Pattern**, this package unifies disparate AI provid
 | **`gemini`** | Gemini 1.5 Flash / Pro | Dedicated Native Driver | Google AI REST v1beta |
 | **`anthropic`** | Claude 3.5 Haiku / Sonnet | Dedicated Native Driver | Anthropic Messages API |
 | **`openrouter`** | Llama 3.1 & Multi-Model Proxy | Custom Proxy Driver | OpenRouter API v1 |
-| **`openai`** | GPT-4o / GPT-4o-mini | OpenAI-Compatible Driver | OpenAI v1 Chat Completions |
-| **`deepseek`** | DeepSeek V4 Series | OpenAI-Compatible Driver | DeepSeek v1 Chat Completions |
-| **`kimi`** | Moonshot Kimi K3 | OpenAI-Compatible Driver | Moonshot v1 Chat Completions |
+| **`openai`** | GPT-4o / GPT-4o-mini | OpenAI Compatible Driver | OpenAI v1 Chat Completions |
+| **`deepseek`** | DeepSeek V4 Series | OpenAI Compatible Driver | DeepSeek v1 Chat Completions |
+| **`kimi`** | Moonshot Kimi K3 | OpenAI Compatible Driver | Moonshot v1 Chat Completions |
 
 ---
 
